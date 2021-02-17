@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(image/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    background-color:transparent;
+    width: 70%;
+    height: 80vh;
+    box-shadow: 0 0 10px blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 15%;
+    position: relative;
+
+}
+.box img{
+    width: 130px;
+    height: 140px;
+    position: relative;
+    bottom: 15%;
+    border-radius: 80px;
+    border: 1px solid #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.6s ease linear;
+}
+.box img:hover{
+    transform: scale(1.1);
+}
+.box h1{
+    position: relative;
+    bottom: 12%;
+    font-size: 30px;
+    width: 100%;
+    height: auto;
+    color: #000; 
+    
+}
+span{
+    color: red;
+}
+.box h3{
+    position: relative;
+    bottom: 11%;
+    font-size: 30px;
+    color: #0947f3;
+
+}
+.box p{
+    font-size: 28px;
+    padding: 0px 15px;
+    color: #000;
+    font-weight: 500;
+}
+#front{
+    width: 30%;
+    height: auto;
+    position: relative;
+     top: 11%;
+     left: 10%;
+    color: #000;
+    font-weight: 600;
+    text-align: right;
+    font-size: 25px;
+}
+#ui{
+    width: 30%;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 5%;
+    right: 10%;
+    color: #000;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+/*responsive design*/
+@media(max-width:1480px){
+  .box{
+      width: 90%;
+     
+  }
+
+
+}
+@media(max-width:1030px){
+    .box img{
+        width: 130px;
+        height: 135px;
+        bottom: 60px;
+    }
+    .box h1{
+        bottom: 8%;
+    }
+    .box h3{
+        padding-top: 10px;
+    }
+}
+
+@media(max-width:680px){
+  .box p{
+      font-size: 25px;
+  }
+  #front{
+      font-size: 20px;
+  }
+  #ui{
+      font-size: 20px;
+  }
+
+
+}
+@media(max-width:500px){
+    .box img{
+        width: 120px;
+        height: 130px;
+    }
+    .box p{
+        font-size: 20px;
+    }
+}
+@media(max-width:380px){
+    .box img{
+        width: 110px;
+        height: 120px;
+    }
+    .box p{
+        font-size: 23px;
+    }
+    #front{
+        font-size: 20px;
+        top: 12%;
+    }
+    #ui{
+        font-size: 20px;
+    }
+}
