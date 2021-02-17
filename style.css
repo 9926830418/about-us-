@@ -148,10 +148,14 @@ span{
         font-size: 23px;
     }
     #front{
+         width: 50%;
         font-size: 20px;
         top: 12%;
+        left: 0%;
     }
     #ui{
         font-size: 20px;
+         right: 0%;
+        top: 8%;
     }
 }
